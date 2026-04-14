@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Port Scanner</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Port Scanner</h1>
+
+    <input type="text" id="ip" placeholder="Enter IP (e.g. 127.0.0.1)">
+    <input type="number" id="start" placeholder="Start Port">
+    <input type="number" id="end" placeholder="End Port">
+
+    <button onclick="scanPorts()">Scan</button>
+
+    <h2>Open Ports:</h2>
+    <ul id="results"></ul>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
